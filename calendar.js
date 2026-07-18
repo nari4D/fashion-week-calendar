@@ -32,6 +32,10 @@
   #fw-calendar .fw-card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:12px;padding:14px 16px;margin:6px 0 20px;min-height:60px;}
   #fw-calendar .fw-card .n{font-weight:800;font-size:16px;}#fw-calendar .fw-card .m{font-size:14px;color:#3b4150;margin-top:4px;}#fw-calendar .fw-hint{color:var(--sub);font-size:14px;}
   #fw-calendar .fw-sec{font-size:19px;font-weight:800;margin:22px 0 12px;}
+  #fw-calendar #fw-tl{max-height:360px;overflow-y:auto;border:1px solid var(--line);border-radius:14px;padding:4px 12px;background:#fff;}
+  #fw-calendar #fw-tl::-webkit-scrollbar{width:10px;}
+  #fw-calendar #fw-tl::-webkit-scrollbar-thumb{background:#d3d8e0;border-radius:8px;border:2px solid #fff;}
+  #fw-calendar #fw-tl::-webkit-scrollbar-track{background:transparent;}
   #fw-calendar .fw-item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;box-shadow:0 1px 2px rgba(20,24,40,.04);cursor:pointer;}
   #fw-calendar .fw-item.est{background:#fafbfc;opacity:.92;}
   #fw-calendar .fw-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;}
