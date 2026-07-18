@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-17",
+ "generated": "2026-07-18",
  "title": "世界のファッションウィークカレンダー",
  "pins": [
   {
@@ -26,7 +26,7 @@
    "k": "c2",
    "x": 917.612692307692,
    "y": 150.61807692307696,
-   "s": "amber",
+   "s": "open",
    "lx": 924.612692307692,
    "ly": 149.61807692307696,
    "a": "start",
@@ -186,9 +186,9 @@
    "name": "Rakuten Fashion Week TOKYO 2027 S/S",
    "city": "東京",
    "country": "日本",
-   "status": "amber",
+   "status": "open",
    "dateJP": "2026年8月31日〜9月5日",
-   "acc": "会場=渋谷ヒカリエ9F／プレス登録は公式で告知",
+   "acc": "会場=渋谷ヒカリエ9F ヒカリエホールA・B／プレス・フォトグラファー・バイヤー登録受付中（締切7/29 18:00・招待や取材許可を確約するものではない）",
    "link": "https://rakutenfashionweektokyo.com/jp/",
    "ig": "https://www.instagram.com/rakutenfwt/",
    "sort": 20260831
@@ -227,7 +227,7 @@
    "country": "米国",
    "status": "amber",
    "dateJP": "2026年9月10日〜15日",
-   "acc": "CFDA暫定スケジュール公開／プレス受付の開始時期はまだ告知なし",
+   "acc": "CFDA公式デザイナー出展申込は4/15〜5/20で締切済み／NYFW側は一元的なプレス受付を行わず、各デザイナーが個別対応（nyfw.com/press/）",
    "link": "https://nyfw.com/",
    "ig": "https://www.instagram.com/nyfw/",
    "sort": 20260910
@@ -253,7 +253,7 @@
    "country": "イタリア",
    "status": "amber",
    "dateJP": "2026年9月22日〜28日",
-   "acc": "プレス受付はメール方式（ufficio.stampa@cameramoda.it）／女性SS27分は未掲載",
+   "acc": "プレス受付はメール方式（ufficio.stampa@cameramoda.it、審査後に正式登録フォーム送付・料金€50）／メンズSS27カレンダーは公開済み（6/19-23）だが女性SS27（9月分）は未掲載",
    "link": "https://www.cameramoda.it/en/",
    "ig": "https://www.instagram.com/cameramoda/",
    "sort": 20260922
@@ -279,7 +279,7 @@
    "country": "台湾",
    "status": "amber",
    "dateJP": "2026年10月15日〜18日",
-   "acc": "会場=C-LAB／プレス・フォト受付の記載なし",
+   "acc": "会場=C-LAB／出展者・イベント申込は受付中（トレードショー締切7/8、イベント申込締切8/5）、プレス・フォト受付はスケジュール公開待ちで未定",
    "link": "https://tpefw.com/en",
    "ig": "https://www.instagram.com/tpe.fashionweek/",
    "sort": 20261015
@@ -342,16 +342,16 @@
   {
    "key": "u3",
    "kind": "estimate",
-   "name": "深圳原創設計時装周 Fashion Source（2027・推定）",
+   "name": "深圳原創設計時装周 Fashion Source（SS27・2026年10月）",
    "city": "深圳(原創)",
    "country": "中国",
    "status": "tbd",
-   "est": "2027年4月中旬ごろ（推定）",
-   "ref": "参考：2026年は4月15〜17日（深圳会展中心）",
-   "reason": "トレード連動型。直近の2026年4月開催は終了済み",
-   "link": "http://www.szodfw.com/",
+   "est": "2026年10月21日〜23日（第33届Fashion Source深圳展と同時開催、公式サイトで確認）",
+   "ref": "参考：2026年4月開催は4月15〜17日（深圳会展中心）",
+   "reason": "併催の「Fashion Source深圳展」公式サイトに次回日程の記載あり。プレス・アクレディ受付の告知は確認できず",
+   "link": "https://www.fashionsource.cn/",
    "ig": null,
-   "sort": 20270415
+   "sort": 20261021
   },
   {
    "key": "u4",
