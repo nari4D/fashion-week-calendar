@@ -13,16 +13,6 @@
    "c": "コペンハーゲン"
   },
   {
-   "k": "c1",
-   "x": 885.8653846153845,
-   "y": 158.19500000000005,
-   "s": "amber",
-   "lx": 879.8653846153845,
-   "ly": 176.19500000000005,
-   "a": "end",
-   "c": "大阪"
-  },
-  {
    "k": "c2",
    "x": 917.612692307692,
    "y": 150.61807692307696,
@@ -166,19 +156,6 @@
    "link": "https://copenhagenfashionweek.com/application/accreditation-form",
    "ig": "https://www.instagram.com/cphfw/",
    "sort": 20260803
-  },
-  {
-   "key": "c1",
-   "kind": "confirmed",
-   "name": "関西コレクション 2026 A/W",
-   "city": "大阪",
-   "country": "日本",
-   "status": "amber",
-   "dateJP": "2026年8月13日",
-   "acc": "協賛・出展・取材の受付リンクあり（撮影可否は主催へ要問合せ）",
-   "link": "https://www.kansai-collection.net/",
-   "ig": "https://www.instagram.com/kansaicollection/",
-   "sort": 20260813
   },
   {
    "key": "c2",
