@@ -56,7 +56,7 @@
   function boot(){
     var root=document.getElementById('fw-calendar'); if(!root) return;
     var style=document.createElement('style'); style.textContent=CSS; document.head.appendChild(style);
-    root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="世界のファッションウィーク地図" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="0 0 1000 548"></svg></div></div>'
+    root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="世界のファッションウィーク地図" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="185 0 815 548"></svg></div></div>'
       +'<div class="fw-legend"><span><i class="fw-dl" style="background:var(--green)"></i>アクレディ受付中</span><span><i class="fw-dl" style="background:var(--amber)"></i>アクレディ受付前（会期は確定）</span><span><i class="fw-dl" style="background:var(--gray)"></i>次回日程 未発表（前年から推定）</span></div>'
       +'<div class="fw-card" id="fw-card"><span class="fw-hint">▲ 地図の都市ピンをクリックすると、会期・アクレディ状況・公式サイト／Instagram が表示されます。</span></div>'
       +'<div class="fw-sec">時系列リスト（開催が近い順）</div><div id="fw-tl"></div>';
