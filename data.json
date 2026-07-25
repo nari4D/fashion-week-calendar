@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18",
+ "generated": "2026-07-25",
  "title": "世界のファッションウィークカレンダー",
  "pins": [
   {
@@ -76,7 +76,7 @@
    "k": "c8",
    "x": 341.8590909090909,
    "y": 157.8681818181817,
-   "s": "amber",
+   "s": "open",
    "lx": 335.8590909090909,
    "ly": 169.8681818181817,
    "a": "end",
@@ -178,7 +178,7 @@
    "country": "UAE",
    "status": "open",
    "dateJP": "2026年9月1日〜5日",
-   "acc": "ゲスト・アクレディ受付中（press@arabfashioncouncil.com）",
+   "acc": "ゲスト・アクレディ受付中（ss27/28共通・press@arabfashioncouncil.com）／詳細な公式ショースケジュール（正確な開始日〜終了日）はカレンダーページで\"Coming soon\"表示のためまだ未公開",
    "link": "https://dubaifashionweek.org/",
    "ig": "https://www.instagram.com/dubaifashionweek/",
    "sort": 20260901
@@ -204,7 +204,7 @@
    "country": "米国",
    "status": "amber",
    "dateJP": "2026年9月10日〜15日",
-   "acc": "CFDA公式デザイナー出展申込は4/15〜5/20で締切済み／NYFW側は一元的なプレス受付を行わず、各デザイナーが個別対応（nyfw.com/press/）",
+   "acc": "CFDA公式デザイナー出展申込は4/15〜5/20で締切済み／9月開催の暫定公式スケジュール（出展ブランド約70）はCFDAで公開済み・ファーフリー方針も今季から適用／NYFW側は一元的なプレス受付を行わず、各デザイナーが個別対応（nyfw.com/press/）",
    "link": "https://nyfw.com/",
    "ig": "https://www.instagram.com/nyfw/",
    "sort": 20260910
@@ -241,9 +241,9 @@
    "name": "Paris Fashion Week（SS27・Womenswear）",
    "city": "パリ",
    "country": "フランス",
-   "status": "amber",
+   "status": "open",
    "dateJP": "2026年9月28日〜10月6日",
-   "acc": "プレス窓口 presse@fhcm.paris／SS27の受付はまだ告知なし",
+   "acc": "SS27（Womenswear）のアクレディ受付が開設済み（accreditation.fhcm.paris/en、締切未掲載）／窓口 accreditation@fhcm.paris",
    "link": "https://www.fhcm.paris/en/",
    "ig": "https://www.instagram.com/parisfashionweek/",
    "sort": 20260928
@@ -269,7 +269,7 @@
    "country": "ドイツ",
    "status": "amber",
    "dateJP": "2027年1月29日〜2月1日",
-   "acc": "次回AW27のアクレディ受付は未開始",
+   "acc": "ベルリンは公式サイトによれば一元的なプレス・アクレディ受付制度自体が無く、AW27のショー・サイドイベントの公式スケジュール（各主催者の個別連絡先を掲載）が公開され次第、デザイナー・主催者ごとに個別対応となる見込み（現時点で未公開）",
    "link": "https://fashionweek.berlin/en/",
    "ig": "https://www.instagram.com/berlinfashionwe/",
    "sort": 20270129
