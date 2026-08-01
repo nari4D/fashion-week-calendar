@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25",
+ "generated": "2026-08-01",
  "title": "世界のファッションウィークカレンダー",
  "pins": [
   {
    "k": "c0",
    "x": 441.2718181818182,
    "y": 91.43090909090893,
-   "s": "open",
+   "s": "amber",
    "lx": 447.2718181818182,
    "ly": 88.43090909090893,
    "a": "start",
@@ -16,7 +16,7 @@
    "k": "c2",
    "x": 917.612692307692,
    "y": 150.61807692307696,
-   "s": "open",
+   "s": "amber",
    "lx": 924.612692307692,
    "ly": 149.61807692307696,
    "a": "start",
@@ -150,9 +150,9 @@
    "name": "Copenhagen Fashion Week（SS27）",
    "city": "コペンハーゲン",
    "country": "デンマーク",
-   "status": "open",
+   "status": "amber",
    "dateJP": "2026年8月3日〜7日",
-   "acc": "アクレディ申請フォーム公開中＝応募可",
+   "acc": "アクレディ申請は受付終了（公式申請フォームに\"The Application is closed.\"と表示、締切日の明記なし）",
    "link": "https://copenhagenfashionweek.com/application/accreditation-form",
    "ig": "https://www.instagram.com/cphfw/",
    "sort": 20260803
@@ -163,9 +163,9 @@
    "name": "Rakuten Fashion Week TOKYO 2027 S/S",
    "city": "東京",
    "country": "日本",
-   "status": "open",
+   "status": "amber",
    "dateJP": "2026年8月31日〜9月5日",
-   "acc": "会場=渋谷ヒカリエ9F ヒカリエホールA・B／プレス・フォトグラファー・バイヤー登録受付中（締切7/29 18:00・招待や取材許可を確約するものではない）",
+   "acc": "会場=渋谷ヒカリエ9F ヒカリエホールA・B／プレス・フォトグラファー・バイヤー登録は締切通り受付終了（2026年7月29日18:00締切、二次募集の告知なし）。問い合わせ：プレス/フォトグラファー jfwpress@jfw.jp、バイヤー buyer@jfw.jp",
    "link": "https://rakutenfashionweektokyo.com/jp/",
    "ig": "https://www.instagram.com/rakutenfwt/",
    "sort": 20260831
@@ -177,8 +177,8 @@
    "city": "ドバイ",
    "country": "UAE",
    "status": "open",
-   "dateJP": "2026年9月1日〜5日",
-   "acc": "ゲスト・アクレディ受付中（ss27/28共通・press@arabfashioncouncil.com）／詳細な公式ショースケジュール（正確な開始日〜終了日）はカレンダーページで\"Coming soon\"表示のためまだ未公開",
+   "dateJP": "2026年9月1日〜6日",
+   "acc": "ゲスト・アクレディ受付中（ss27/28共通・press@arabfashioncouncil.com）／公式Aboutページで会期SS27=2026年9/1〜6日（SS28=2027年9/1〜6日）と明記／詳細な公式ショースケジュールはカレンダーページが依然AW26/27表示のままでSS27/28分は未公開",
    "link": "https://dubaifashionweek.org/",
    "ig": "https://www.instagram.com/dubaifashionweek/",
    "sort": 20260901
@@ -190,8 +190,8 @@
    "city": "ソウル",
    "country": "韓国",
    "status": "amber",
-   "dateJP": "2026年9月1日〜6日",
-   "acc": "会場=DDPほか／プレス・フォト受付はまだ告知なし",
+   "dateJP": "2026年9月1日〜7日",
+   "acc": "会場=DDPほか（ソウル市発表・25周年）／B2Bトレードショー（9/4〜6、DDP Design Lab）の事前登録は9/3締切で受付中／プレス・フォト受付は引き続き告知なし",
    "link": "https://www.seoulfashionweek.org/",
    "ig": "https://www.instagram.com/seoulfashionweek_official/",
    "sort": 20260901.5
@@ -230,7 +230,7 @@
    "country": "イタリア",
    "status": "amber",
    "dateJP": "2026年9月22日〜28日",
-   "acc": "プレス受付はメール方式（ufficio.stampa@cameramoda.it、審査後に正式登録フォーム送付・料金€50）／メンズSS27カレンダーは公開済み（6/19-23）だが女性SS27（9月分）は未掲載",
+   "acc": "プレス受付はメール方式（ufficio.stampa@cameramoda.it、審査後に正式登録・料金€60）／一般申請締切9/15、ブランド初回プレスリスト掲載締切9/8／メンズSS27カレンダーは公開済み（6/19-23）だが女性SS27（9月分）は引き続き未掲載",
    "link": "https://www.cameramoda.it/en/",
    "ig": "https://www.instagram.com/cameramoda/",
    "sort": 20260922
@@ -243,7 +243,7 @@
    "country": "フランス",
    "status": "open",
    "dateJP": "2026年9月28日〜10月6日",
-   "acc": "SS27（Womenswear）のアクレディ受付が開設済み（accreditation.fhcm.paris/en、締切未掲載）／窓口 accreditation@fhcm.paris",
+   "acc": "SS27（Womenswear）のアクレディ受付は引き続きopen（accreditation.fhcm.paris/en、締切未掲載）／窓口 accreditation@fhcm.paris／なお8/3〜8/16はアクレディ事務局が休業期間（受付システム自体は稼働中）",
    "link": "https://www.fhcm.paris/en/",
    "ig": "https://www.instagram.com/parisfashionweek/",
    "sort": 20260928
@@ -256,7 +256,7 @@
    "country": "台湾",
    "status": "amber",
    "dateJP": "2026年10月15日〜18日",
-   "acc": "会場=C-LAB／出展者・イベント申込は受付中（トレードショー締切7/8、イベント申込締切8/5）、プレス・フォト受付はスケジュール公開待ちで未定",
+   "acc": "会場=C-LAB／出展者・イベント申込は受付中（トレードショー締切7/8、イベント申込締切8/5）、プレス・フォト受付はスケジュール公開待ちで引き続き未定（8/1時点でtpefw.com/en/schedulesは\"Coming soon\"のまま）",
    "link": "https://tpefw.com/en",
    "ig": "https://www.instagram.com/tpe.fashionweek/",
    "sort": 20261015
@@ -269,7 +269,7 @@
    "country": "ドイツ",
    "status": "amber",
    "dateJP": "2027年1月29日〜2月1日",
-   "acc": "ベルリンは公式サイトによれば一元的なプレス・アクレディ受付制度自体が無く、AW27のショー・サイドイベントの公式スケジュール（各主催者の個別連絡先を掲載）が公開され次第、デザイナー・主催者ごとに個別対応となる見込み（現時点で未公開）",
+   "acc": "公式サイトのヘッダー表記でAW27会期（2027年1/29〜2/1）を確認／一元的なプレス・アクレディ受付制度自体が無く、AW27のショー・サイドイベントの詳細スケジュール（各主催者の個別連絡先を掲載予定）はまだ未公開、アクレディページも404でナビ表示は旧SS27のまま",
    "link": "https://fashionweek.berlin/en/",
    "ig": "https://www.instagram.com/berlinfashionwe/",
    "sort": 20270129
@@ -325,7 +325,7 @@
    "status": "tbd",
    "est": "2026年10月21日〜23日（第33届Fashion Source深圳展と同時開催、公式サイトで確認）",
    "ref": "参考：2026年4月開催は4月15〜17日（深圳会展中心）",
-   "reason": "併催の「Fashion Source深圳展」公式サイトに次回日程の記載あり。プレス・アクレディ受付の告知は確認できず",
+   "reason": "併催の「Fashion Source深圳展」公式サイトに次回日程（2026年10月21〜23日、深圳会展中心）の記載を再確認。プレス・アクレディ受付の告知は確認できず",
    "link": "https://www.fashionsource.cn/",
    "ig": null,
    "sort": 20261021
@@ -339,7 +339,7 @@
    "status": "tbd",
    "est": "2026年10月中旬ごろ（推定）",
    "ref": "参考：第3回 2025年は10月15〜20日",
-   "reason": "2026年回の日程は公式未発表（公式サイトも2025表示のまま）",
+   "reason": "2026年回（第4回、White Milanoが公式パートナーとして参画とWWD等が報道）の開催自体は既定路線だが、具体的な開始日・終了日は公式未発表（公式サイトも2025表示のまま）",
    "link": "https://www.riyadhfashionweek.com/",
    "ig": "https://www.instagram.com/riyadhfashionweek/",
    "sort": 20261016
