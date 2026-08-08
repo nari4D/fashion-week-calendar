@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-01",
+ "generated": "2026-08-08",
  "title": "世界のファッションウィークカレンダー",
  "pins": [
   {
@@ -204,7 +204,7 @@
    "country": "米国",
    "status": "amber",
    "dateJP": "2026年9月10日〜15日",
-   "acc": "CFDA公式デザイナー出展申込は4/15〜5/20で締切済み／9月開催の暫定公式スケジュール（出展ブランド約70）はCFDAで公開済み・ファーフリー方針も今季から適用／NYFW側は一元的なプレス受付を行わず、各デザイナーが個別対応（nyfw.com/press/）",
+   "acc": "CFDA公式デザイナー出展申込は4/15〜5/20で締切済み／9月開催の公式プレリミナリースケジュール（出展ブランド約70・9/10〜15、cfda.comで公開）が正式掲載済み・ファーフリー方針も今季から適用／NYFW側は一元的なプレス受付を行わず、各デザイナーが個別対応（nyfw.com/press/、\"NYFW: The Shows will not be credentialing media\"と明記）",
    "link": "https://nyfw.com/",
    "ig": "https://www.instagram.com/nyfw/",
    "sort": 20260910
@@ -217,7 +217,7 @@
    "country": "英国",
    "status": "amber",
    "dateJP": "2026年9月17日〜21日",
-   "acc": "9月分のアクレディ受付はまだ告知なし（未掲載）",
+   "acc": "英国ファッション評議会（BFC）が9月開催のプロビジョナルスケジュールを発表済み／アクレディページ（londonfashionweek.co.uk/accreditation）自体は稼働中だが、受付開始・締切日の明記は確認できず引き続き未確定",
    "link": "https://londonfashionweek.co.uk/",
    "ig": "https://www.instagram.com/londonfashionweek/",
    "sort": 20260917
@@ -230,7 +230,7 @@
    "country": "イタリア",
    "status": "amber",
    "dateJP": "2026年9月22日〜28日",
-   "acc": "プレス受付はメール方式（ufficio.stampa@cameramoda.it、審査後に正式登録・料金€60）／一般申請締切9/15、ブランド初回プレスリスト掲載締切9/8／メンズSS27カレンダーは公開済み（6/19-23）だが女性SS27（9月分）は引き続き未掲載",
+   "acc": "プレス受付はメール方式（ufficio.stampa@cameramoda.it、審査後に正式登録・料金€60）／一般申請締切9/15、ブランド初回プレスリスト掲載締切9/8／女性SS27カレンダーもcameramoda.itの「NEXT EDITIONS」に会期9/22〜28で掲載済み（詳細ショー別スケジュールは別途）",
    "link": "https://www.cameramoda.it/en/",
    "ig": "https://www.instagram.com/cameramoda/",
    "sort": 20260922
@@ -256,7 +256,7 @@
    "country": "台湾",
    "status": "amber",
    "dateJP": "2026年10月15日〜18日",
-   "acc": "会場=C-LAB／出展者・イベント申込は受付中（トレードショー締切7/8、イベント申込締切8/5）、プレス・フォト受付はスケジュール公開待ちで引き続き未定（8/1時点でtpefw.com/en/schedulesは\"Coming soon\"のまま）",
+   "acc": "会場=C-LAB／トレードショー・ランウェイ・プレゼンテーションの選考結果は8/5発表済み、バイヤー申込は受付中（締切9/7 17:00・UTC+8）／プレス・フォト受付はtpefw.com/en/schedulesが依然AW26（過去シーズン）表示のままでSS27分は引き続き未公開",
    "link": "https://tpefw.com/en",
    "ig": "https://www.instagram.com/tpe.fashionweek/",
    "sort": 20261015
@@ -325,7 +325,7 @@
    "status": "tbd",
    "est": "2026年10月21日〜23日（第33届Fashion Source深圳展と同時開催、公式サイトで確認）",
    "ref": "参考：2026年4月開催は4月15〜17日（深圳会展中心）",
-   "reason": "併催の「Fashion Source深圳展」公式サイトに次回日程（2026年10月21〜23日、深圳会展中心）の記載を再確認。プレス・アクレディ受付の告知は確認できず",
+   "reason": "併催の「Fashion Source深圳展」公式サイトに次回日程（2026年10月21〜23日、深圳会展中心福田）の記載を再確認。来場者登録・出展ブース予約（system.fashionsource.cn）は受付中を確認、プレス・アクレディ専用受付の告知は引き続き確認できず",
    "link": "https://www.fashionsource.cn/",
    "ig": null,
    "sort": 20261021
@@ -338,7 +338,7 @@
    "country": "サウジ",
    "status": "tbd",
    "est": "2026年10月中旬ごろ（推定）",
-   "ref": "参考：第3回 2025年は10月15〜20日",
+   "ref": "参考：第3回 2025年は10月16〜21日（公式Instagram発表）",
    "reason": "2026年回（第4回、White Milanoが公式パートナーとして参画とWWD等が報道）の開催自体は既定路線だが、具体的な開始日・終了日は公式未発表（公式サイトも2025表示のまま）",
    "link": "https://www.riyadhfashionweek.com/",
    "ig": "https://www.instagram.com/riyadhfashionweek/",
