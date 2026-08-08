@@ -1,11 +1,11 @@
-/* World Fashion Week Calendar — embeddable render script.
-   Drop <div id="fw-calendar"></div> into a page (e.g. Shopify) and load this JS.
-   It reads data.json and map.png from the same origin (BASE). */
+/* 世界のファッションウィークカレンダー — 埋め込み描画スクリプト
+   Shopify等に <div id="fw-calendar"></div> を置き、このJSを読み込むだけ。
+   data.json と map.png を同じ配信元(BASE)から読み込みます。 */
 (function () {
   var BASE = (typeof window.FW_CAL_BASE === 'string') ? window.FW_CAL_BASE : 'https://cdn.jsdelivr.net/gh/nari4D/fashion-week-calendar@main';
   var DATA_URL = BASE + '/data.json';
   var MAP_URL  = BASE + '/map.png';
-  var STLABEL = { open: 'Accreditation open', amber: 'Accreditation not yet open', tbd: 'Next dates TBA', closed: 'Accreditation closed' };
+  var STLABEL = { open: 'アクレディ受付中', amber: 'アクレディ受付前', tbd: '次回日程 未発表', closed: 'アクレディ受付終了' };
 
   var CSS = `
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
@@ -56,13 +56,13 @@
   function boot(){
     var root=document.getElementById('fw-calendar'); if(!root) return;
     var style=document.createElement('style'); style.textContent=CSS; document.head.appendChild(style);
-    root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="World fashion week map" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="185 0 815 548"></svg></div></div>'
-      +'<div class="fw-legend"><span><i class="fw-dl" style="background:var(--green)"></i>Accreditation open</span><span><i class="fw-dl" style="background:var(--amber)"></i>Accreditation not yet open (dates confirmed)</span><span><i class="fw-dl" style="background:var(--closed)"></i>Accreditation closed</span><span><i class="fw-dl" style="background:var(--gray)"></i>Next dates TBA (estimated from last year)</span></div>'
-      +'<div class="fw-card" id="fw-card"><span class="fw-hint">▲ Click a city pin on the map to see its dates, accreditation status, official site and Instagram.</span></div>'
-      +'<div class="fw-sec">Timeline (soonest first)</div><div id="fw-tl"></div>';
+    root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="世界のファッションウィーク地図" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="185 0 815 548"></svg></div></div>'
+      +'<div class="fw-legend"><span><i class="fw-dl" style="background:var(--green)"></i>アクレディ受付中</span><span><i class="fw-dl" style="background:var(--amber)"></i>アクレディ受付前（会期は確定）</span><span><i class="fw-dl" style="background:var(--closed)"></i>アクレディ受付終了</span><span><i class="fw-dl" style="background:var(--gray)"></i>次回日程 未発表（前年から推定）</span></div>'
+      +'<div class="fw-card" id="fw-card"><span class="fw-hint">▲ 地図の都市ピンをクリックすると、会期・アクレディ状況・公式サイト／Instagram が表示されます。</span></div>'
+      +'<div class="fw-sec">時系列リスト（開催が近い順）</div><div id="fw-tl"></div>';
 
     fetch(DATA_URL,{cache:'no-cache'}).then(function(r){return r.json();}).then(function(data){ render(root,data); })
-      .catch(function(){ document.getElementById('fw-card').innerHTML='<span class="fw-hint">Could not load data. Please try reloading in a little while.</span>'; });
+      .catch(function(){ document.getElementById('fw-card').innerHTML='<span class="fw-hint">データを読み込めませんでした。時間をおいて再読み込みしてください。</span>'; });
   }
 
   function render(root,data){
@@ -75,16 +75,16 @@
       var pin=root.querySelector('.fw-pin[data-k="'+k+'"]'); if(pin)pin.classList.add('active');
       var e=byKey[k]; if(!e)return; var html;
       if(e.kind==='confirmed'){
-        html='<div class="n">'+e.city+' ('+e.country+') — '+e.name+'</div>'
-          +'<div class="m">📅 Dates: <b>'+e.dateJP+'</b> | '+STLABEL[e.status]+'</div>'
-          +'<div class="m">📷 Accreditation / shooting: '+e.acc+'</div>'
-          +'<div class="m">🔗 <a href="'+e.link+'" target="_blank" rel="noopener">Official site</a> '+ig(e.ig)+'</div>';
+        html='<div class="n">'+e.city+'（'+e.country+'）— '+e.name+'</div>'
+          +'<div class="m">📅 会期：<b>'+e.dateJP+'</b>　｜　'+STLABEL[e.status]+'</div>'
+          +'<div class="m">📷 アクレディ／撮影：'+e.acc+'</div>'
+          +'<div class="m">🔗 <a href="'+e.link+'" target="_blank" rel="noopener">公式サイト</a>　'+ig(e.ig)+'</div>';
       } else {
-        html='<div class="n">'+e.city+' ('+e.country+') — '+e.name+'</div>'
-          +'<div class="m">🟠 Estimated dates: <b>'+e.est+'</b> (not officially announced — estimate only)</div>'
+        html='<div class="n">'+e.city+'（'+e.country+'）— '+e.name+'</div>'
+          +'<div class="m">🟠 推定会期：<b>'+e.est+'</b>（公式未発表・あくまで推定）</div>'
           +'<div class="m">📎 '+e.ref+'</div>'
-          +'<div class="m" style="color:var(--sub)">Status: '+e.reason+'</div>'
-          +'<div class="m">🔗 <a href="'+e.link+'" target="_blank" rel="noopener">Official site</a> '+ig(e.ig)+'</div>';
+          +'<div class="m" style="color:var(--sub)">状況：'+e.reason+'</div>'
+          +'<div class="m">🔗 <a href="'+e.link+'" target="_blank" rel="noopener">公式サイト</a>　'+ig(e.ig)+'</div>';
       }
       card.innerHTML=html;
       var li=document.getElementById('fw-tl-'+k); if(li){li.style.outline='2px solid var(--blue)';setTimeout(function(){li.style.outline='none';},1500);}
@@ -106,14 +106,14 @@
     var tl=document.getElementById('fw-tl');
     data.events.slice().sort(function(a,b){return a.sort-b.sort;}).forEach(function(e){
       var div=h('div','fw-item'+(e.kind==='estimate'?' est':'')); div.id='fw-tl-'+e.key;
-      var links='<div class="fw-lk"><a href="'+e.link+'" target="_blank" rel="noopener">🔗 Official site</a>'+ig(e.ig)+'</div>';
+      var links='<div class="fw-lk"><a href="'+e.link+'" target="_blank" rel="noopener">🔗 公式サイト</a>'+ig(e.ig)+'</div>';
       if(e.kind==='estimate'){
-        div.innerHTML='<div class="fw-top"><span class="fw-d">'+e.est+'</span><span class="fw-bd tbd">Estimate</span></div>'
-          +'<div class="fw-nm">'+e.name+'</div><div class="fw-ct">'+e.city+' · '+e.country+'</div>'
-          +'<div class="fw-ac">📎 '+e.ref+'</div><div class="fw-ac" style="color:var(--sub)">Status: '+e.reason+'</div>'+links;
+        div.innerHTML='<div class="fw-top"><span class="fw-d">'+e.est+'</span><span class="fw-bd tbd">推定</span></div>'
+          +'<div class="fw-nm">'+e.name+'</div><div class="fw-ct">'+e.city+'・'+e.country+'</div>'
+          +'<div class="fw-ac">📎 '+e.ref+'</div><div class="fw-ac" style="color:var(--sub)">状況：'+e.reason+'</div>'+links;
       } else {
         div.innerHTML='<div class="fw-top"><span class="fw-d">'+e.dateJP+'</span><span class="fw-bd '+e.status+'">'+STLABEL[e.status]+'</span></div>'
-          +'<div class="fw-nm">'+e.name+'</div><div class="fw-ct">'+e.city+' · '+e.country+'</div>'
+          +'<div class="fw-nm">'+e.name+'</div><div class="fw-ct">'+e.city+'・'+e.country+'</div>'
           +'<div class="fw-ac">📷 '+e.acc+'</div>'+links;
       }
       div.addEventListener('click',function(ev){ if(ev.target.tagName!=='A') select(e.key); });
