@@ -81,7 +81,7 @@
     var root=document.getElementById('fw-calendar'); if(!root) return;
     var style=document.createElement('style'); style.textContent=CSS; document.head.appendChild(style);
     root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="世界のファッションウィーク地図" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="185 0 815 548"></svg></div></div>'
-      +'<div class="fw-hint" style="margin:12px 0">▲ 地図の都市ピンをクリックすると、下の時系列リストの該当ファッションウィークまでスクロールします。</div>'
+      +'<div class="fw-hint" style="margin:12px 0">▲ 地図の都市ピンをクリック</div>'
       +'<div id="fw-tl"></div>';
 
     fetch(DATA_URL,{cache:'no-cache'}).then(function(r){return r.json();}).then(function(data){ render(root,data); })
