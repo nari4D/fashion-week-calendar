@@ -1,20 +1,24 @@
-このリポジトリ直下の data.json を、各ファッションウィークの公式サイトを調べて最新化してください。編集対象は data.json のみ。作業後は必ず有効なJSONとして保存すること。
+Update data.json in the root of this repository by checking each fashion week's official website. Edit data.json only. Always save valid JSON. The scroll list is now in ENGLISH — every human-readable value you write (name, city, country, dateJP, acc, est, ref, reason) must be in English.
 
-やること:
-1. data.json を読む（events 配列と pins 配列がある）。
-2. events の各項目について、その項目の link（公式サイト）を WebFetch / WebSearch で実際に確認し、最新化する。
-   - 会期が確定していれば dateJP を公式の日付に更新し、status を open（アクレディ受付中と公式で確認できた場合）または amber（会期は確定だが受付前・未告知）にする。
-   - **トップページだけで「告知なし」と判断しない。** 必ず各サイトの「Register / Accreditation / プレス登録」専用ページまで開き、PRESS・PHOTOGRAPHER 向けの申請期間（신청기간／registration period／accreditation window）を確認する。今日がその期間内なら status=open にする。（例：Seoul は https://www.seoulfashionweek.org/hmpg/fawk/regi/regiMain.do に「PRESS 신청기간 2026-07-31~2026-08-15」と明記。トップだけ見て見落とすと amber のまま誤表示になる。）
-   - アクレディ／登録の締切が過ぎ、二次募集の告知が無い（が会期はまだ先）の場合は status を "closed"（アクレディ受付終了）にする。
-   - **会期そのものが終了した（終了日 < 今日）イベントは closed のままにせず、翌年の同シーズンの予定へ繰り上げる。** kind を "estimate"、status を "tbd" にし、name を翌年シーズンに更新（SS27→SS28、AW27→AW28 等）、dateJP と acc は削除、est（前年実績＋1年の推定会期）・ref（今終わった回の実績）・reason を設定する。**sort を翌年の日付（例 20270803）に更新し、時系列リストの一番下へ移動させる。** 同じ key のピン s は "tbd"。（例：Copenhagen SS27 が 2026-08-07 に終了 → SS28 推定・sort=20270803 に繰り上げ。）
-   - 次回会期が公式未発表の項目は status を "tbd" のままにし、est（推定会期）と ref（前年実績の参考）を保持・必要なら更新する。
-   - 季節名は各公式の呼称に合わせる（NY=「Spring 2027」等の Spring/Fall＋西暦、欧州9月開催=SS27、日本=S/S・A/W、韓国=2027 S/S 等）。季節が繰り上がったら name を更新。
-   - acc（アクレディ/撮影メモ）も公式の最新状況に更新。
-3. pins 配列は座標（x, y, lx, ly, a, c, k）を絶対に変更しない。各 pin の s（色）だけを、同じ key を持つ event の status に一致させる（open/amber/closed/tbd）。
-4. data.json の generated を今日の日付（YYYY-MM-DD）に更新する。
+Today's date is provided by the runner; treat any deadline/period earlier than today as already passed.
 
-厳守:
-- 捏造禁止。公式サイトで確認できた事実だけを確定として書く。確認できないもの・未発表は推定（tbd＋est＋ref）のままにする。まとめサイトの日付は使わない。
-- events / pins の要素数や key を増減させない。既存の構造・キー名を保つ。
-- JSONとして壊さない（最後に必ず妥当なJSONで保存）。
-- 変更が無ければ data.json はそのままでよい（無理に書き換えない）。
+What to do:
+1. Read data.json (it has an `events` array and a `pins` array).
+2. For each event, open its `link` (official site) with WebFetch / WebSearch, confirm the facts, and update:
+   - If dates are confirmed, update `dateJP` to the official dates and set `status` to `open` (only if accreditation is currently open) or `amber` (dates confirmed but accreditation not yet open / announced).
+   - DO NOT decide "not announced" from the top page alone. Always open each site's "Register / Accreditation / press registration" page and check the PRESS / PHOTOGRAPHER application period (registration/accreditation window). If today falls within it, set `status` = open. (e.g. Seoul lists "PRESS period 2026.7.31–2026.8.15" at https://www.seoulfashionweek.org/hmpg/fawk/regi/regiMain.do — missing that leaves it wrongly at amber.)
+   - If the accreditation/registration deadline has passed with no second-round call, but the event itself is still upcoming, set `status` = `closed`.
+   - If the event itself has ended (end date < today), roll it to next year's same season: set `kind` = "estimate", `status` = "tbd", update `name` to the next season (SS27→SS28, AW27→AW28, etc.), delete `dateJP` and `acc`, set `est` (estimated dates from last year + 1 year), `ref` (the edition that just finished), and `reason`. Set `sort` to next year's date (e.g. 20270803) so it moves to the bottom of the list. Set the matching pin's `s` to "tbd".
+   - If the next edition's dates are not officially announced, keep `status` = `tbd` with `est` + `ref`.
+   - Match season naming to official wording (NY = "Spring 2027", European September = SS27, Japan = S/S or A/W, Korea = "2027 S/S"). Update `name` when the season rolls over.
+   - Update `acc` to the latest official situation.
+3. DATE FORMAT: write every date as dotted numerals `YYYY.M.D`, joined with `〜`, e.g. `2026.8.31〜9.5`, `2026.9.28〜10.6`, single day `2026.10.19`. Do NOT use English month names. Applies to `dateJP` and to any explicit dates inside `est` / `acc` / `ref` / `reason`.
+4. Do NOT change pin coordinates (`x, y, lx, ly, a, c, k`). Only sync each pin's `s` (colour) to the matching key's event status (`open` / `amber` / `closed` / `tbd`). Keep pin label `c` (city name) in English.
+5. Update `generated` to today's date (YYYY-MM-DD).
+
+Rules:
+- No fabrication. Write as confirmed only what you verified on the official site. Leave anything unconfirmed / unannounced as an estimate (`tbd` + `est` + `ref`). Do not use aggregator-site dates.
+- Do not add or remove elements or keys in `events` / `pins`. Keep the existing structure and key names (including the legacy key name `dateJP`, even though values are English).
+- Keep everything in English. Never write Japanese into any value.
+- Do not break the JSON (always end with valid JSON).
+- If nothing changed, leave data.json as-is.
