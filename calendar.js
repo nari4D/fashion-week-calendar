@@ -38,6 +38,7 @@
   #fw-calendar #fw-tl::-webkit-scrollbar-track{background:transparent;}
   #fw-calendar .fw-item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;box-shadow:0 1px 2px rgba(20,24,40,.04);cursor:pointer;}
   #fw-calendar .fw-item.est{background:#fafbfc;opacity:.92;}
+  #fw-calendar .fw-item.hl{outline:2px solid var(--blue);outline-offset:2px;background:#eef4ff;transition:background .2s;}
   #fw-calendar .fw-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;}
   #fw-calendar .fw-d{font-weight:800;font-size:17px;color:var(--blue);}#fw-calendar .fw-item.est .fw-d{color:var(--gray);font-size:15px;}
   #fw-calendar .fw-nm{font-weight:800;font-size:16px;margin-top:4px;}#fw-calendar .fw-item.est .fw-nm{color:#6b7280;}
@@ -58,36 +59,27 @@
     var style=document.createElement('style'); style.textContent=CSS; document.head.appendChild(style);
     root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="世界のファッションウィーク地図" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="185 0 815 548"></svg></div></div>'
       +'<div class="fw-legend"><span><i class="fw-dl" style="background:var(--green)"></i>アクレディ受付中</span><span><i class="fw-dl" style="background:var(--amber)"></i>アクレディ受付前（会期は確定）</span><span><i class="fw-dl" style="background:var(--closed)"></i>アクレディ受付終了</span><span><i class="fw-dl" style="background:var(--gray)"></i>次回日程 未発表（前年から推定）</span></div>'
-      +'<div class="fw-card" id="fw-card"><span class="fw-hint">▲ 地図の都市ピンをクリックすると、会期・アクレディ状況・公式サイト／Instagram が表示されます。</span></div>'
+      +'<div class="fw-hint" style="margin:0 0 12px">▲ 地図の都市ピンをクリックすると、下の時系列リストの該当ファッションウィークまでスクロールします。</div>'
       +'<div class="fw-sec">時系列リスト（開催が近い順）</div><div id="fw-tl"></div>';
 
     fetch(DATA_URL,{cache:'no-cache'}).then(function(r){return r.json();}).then(function(data){ render(root,data); })
-      .catch(function(){ document.getElementById('fw-card').innerHTML='<span class="fw-hint">データを読み込めませんでした。時間をおいて再読み込みしてください。</span>'; });
+      .catch(function(){ document.getElementById('fw-tl').innerHTML='<div class="fw-hint" style="padding:12px">データを読み込めませんでした。時間をおいて再読み込みしてください。</div>'; });
   }
 
   function render(root,data){
     var NS='http://www.w3.org/2000/svg';
     var byKey={}; data.events.forEach(function(e){ byKey[e.key]=e; });
-    var ov=root.querySelector('.fw-ov'); var card=document.getElementById('fw-card');
+    var ov=root.querySelector('.fw-ov');
 
     function select(k){
       root.querySelectorAll('.fw-pin').forEach(function(x){x.classList.remove('active');});
       var pin=root.querySelector('.fw-pin[data-k="'+k+'"]'); if(pin)pin.classList.add('active');
-      var e=byKey[k]; if(!e)return; var html;
-      if(e.kind==='confirmed'){
-        html='<div class="n">'+e.city+'（'+e.country+'）— '+e.name+'</div>'
-          +'<div class="m">📅 会期：<b>'+e.dateJP+'</b>　｜　'+STLABEL[e.status]+'</div>'
-          +'<div class="m">📷 アクレディ／撮影：'+e.acc+'</div>'
-          +'<div class="m">🔗 <a href="'+e.link+'" target="_blank" rel="noopener">公式サイト</a>　'+ig(e.ig)+'</div>';
-      } else {
-        html='<div class="n">'+e.city+'（'+e.country+'）— '+e.name+'</div>'
-          +'<div class="m">🟠 推定会期：<b>'+e.est+'</b>（公式未発表・あくまで推定）</div>'
-          +'<div class="m">📎 '+e.ref+'</div>'
-          +'<div class="m" style="color:var(--sub)">状況：'+e.reason+'</div>'
-          +'<div class="m">🔗 <a href="'+e.link+'" target="_blank" rel="noopener">公式サイト</a>　'+ig(e.ig)+'</div>';
+      var tl=document.getElementById('fw-tl'); var li=document.getElementById('fw-tl-'+k);
+      if(tl&&li){
+        var top=li.getBoundingClientRect().top - tl.getBoundingClientRect().top + tl.scrollTop;
+        tl.scrollTo({top:Math.max(0,top-8),behavior:'smooth'});
+        li.classList.add('hl'); setTimeout(function(){li.classList.remove('hl');},1600);
       }
-      card.innerHTML=html;
-      var li=document.getElementById('fw-tl-'+k); if(li){li.style.outline='2px solid var(--blue)';setTimeout(function(){li.style.outline='none';},1500);}
     }
 
     // pins overlay

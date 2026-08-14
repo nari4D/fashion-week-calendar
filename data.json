@@ -6,7 +6,7 @@
       "k": "c0",
       "x": 441.2718181818182,
       "y": 91.43090909090893,
-      "s": "closed",
+      "s": "tbd",
       "lx": 447.2718181818182,
       "ly": 88.43090909090893,
       "a": "start",
@@ -146,16 +146,17 @@
   "events": [
     {
       "key": "c0",
-      "kind": "confirmed",
-      "name": "Copenhagen Fashion Week（SS27）",
+      "kind": "estimate",
+      "name": "Copenhagen Fashion Week（SS28・推定）",
       "city": "コペンハーゲン",
       "country": "デンマーク",
-      "status": "closed",
-      "dateJP": "2026年8月3日〜7日",
-      "acc": "アクレディ申請は受付終了（公式申請フォームに\"The Application is closed.\"と表示、締切日の明記なし）",
+      "status": "tbd",
       "link": "https://copenhagenfashionweek.com/application/accreditation-form",
       "ig": "https://www.instagram.com/cphfw/",
-      "sort": 20260803
+      "sort": 20270803,
+      "est": "2027年8月上旬ごろ（推定）",
+      "ref": "参考：SS27は2026年8月3〜7日（終了）",
+      "reason": "SS27は終了。次回SS28の会期は公式未発表（前年実績から推定）"
     },
     {
       "key": "c2",
