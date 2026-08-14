@@ -10,7 +10,7 @@
   var CSS = `
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap');
   #fw-calendar{--ink:#1b2029;--sub:#5f6672;--line:#e6e8ec;--accent:#e0345f;--blue:#2f6fed;--green:#12a56a;--amber:#e08a12;--gray:#8a909c;--closed:#a05561;--ig:#c13584;--sea:#eef3f9;--panel:#f6f7f9;
-    font-family:"Noto Sans JP",-apple-system,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;color:var(--ink);max-width:940px;margin:0 auto;font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased;}
+    font-family:"Noto Sans JP",-apple-system,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;color:var(--ink);max-width:800px;margin:0 auto;font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased;}
   #fw-calendar *{box-sizing:border-box;}
   #fw-calendar .fw-h1{font-size:26px;font-weight:800;margin:0 0 2px;}
   #fw-calendar .fw-date{color:var(--accent);font-weight:800;font-size:14px;letter-spacing:.04em;}
@@ -32,7 +32,7 @@
   #fw-calendar .fw-card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:12px;padding:14px 16px;margin:6px 0 20px;min-height:60px;}
   #fw-calendar .fw-card .n{font-weight:800;font-size:16px;}#fw-calendar .fw-card .m{font-size:14px;color:#3b4150;margin-top:4px;}#fw-calendar .fw-hint{color:var(--sub);font-size:14px;}
   #fw-calendar .fw-sec{font-size:19px;font-weight:800;margin:22px 0 12px;}
-  #fw-calendar #fw-tl{max-height:560px;overflow-y:auto;border:1px solid var(--line);border-radius:14px;padding:4px 12px;background:#fff;}
+  #fw-calendar #fw-tl{max-height:375px;overflow-y:auto;border:1px solid var(--line);border-radius:14px;padding:4px 12px;background:#fff;margin-top:16px;}
   #fw-calendar #fw-tl::-webkit-scrollbar{width:10px;}
   #fw-calendar #fw-tl::-webkit-scrollbar-thumb{background:#d3d8e0;border-radius:8px;border:2px solid #fff;}
   #fw-calendar #fw-tl::-webkit-scrollbar-track{background:transparent;}
@@ -81,8 +81,7 @@
     var root=document.getElementById('fw-calendar'); if(!root) return;
     var style=document.createElement('style'); style.textContent=CSS; document.head.appendChild(style);
     root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="世界のファッションウィーク地図" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="185 0 815 548"></svg></div></div>'
-      +'<div class="fw-hint" style="margin:10px 0 12px">▲ 地図の都市ピンをクリックすると、下の時系列リストの該当ファッションウィークまでスクロールします。</div>'
-      +'<div class="fw-sec">時系列リスト（開催が近い順）</div><div id="fw-tl"></div>';
+      +'<div id="fw-tl"></div>';
 
     fetch(DATA_URL,{cache:'no-cache'}).then(function(r){return r.json();}).then(function(data){ render(root,data); })
       .catch(function(){ document.getElementById('fw-tl').innerHTML='<div class="fw-hint" style="padding:12px">データを読み込めませんでした。時間をおいて再読み込みしてください。</div>'; });
