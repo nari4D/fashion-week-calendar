@@ -49,6 +49,29 @@
   #fw-calendar .fw-ig{color:var(--ig);font-weight:700;}
   #fw-calendar .fw-bd{font-size:12px;font-weight:800;padding:3px 10px;border-radius:999px;white-space:nowrap;}
   #fw-calendar .fw-bd.open{background:#e5f6ee;color:var(--green);}#fw-calendar .fw-bd.amber{background:#fbf0dc;color:var(--amber);}#fw-calendar .fw-bd.tbd{background:#eef0f3;color:var(--gray);}#fw-calendar .fw-bd.closed{background:#f6e7ea;color:var(--closed);}
+  /* prevent long URLs / emails from overflowing on any width */
+  #fw-calendar{overflow-wrap:anywhere;word-break:normal;}
+  #fw-calendar .fw-nm,#fw-calendar .fw-ac,#fw-calendar .fw-ct{overflow-wrap:anywhere;}
+  #fw-calendar .fw-lk a{overflow-wrap:anywhere;max-width:100%;}
+  /* --- mobile / responsive --- */
+  @media (max-width:600px){
+    #fw-calendar{font-size:15px;line-height:1.65;}
+    #fw-calendar .fw-mapbox{padding:4px;border-radius:12px;}
+    #fw-calendar .fw-lbl{font-size:22px;stroke-width:4.5px;}
+    #fw-calendar .fw-dot{r:9px;}
+    #fw-calendar .fw-ring{r:13px;stroke-width:2.5px;}
+    #fw-calendar .fw-hit{r:26px;}
+    #fw-calendar .fw-hint{font-size:12.5px;}
+    #fw-calendar .fw-sec{font-size:17px;margin:16px 0 10px;}
+    #fw-calendar #fw-tl{max-height:72vh;padding:2px 8px;border-radius:12px;}
+    #fw-calendar .fw-item{padding:12px 13px;margin:8px 0;}
+    #fw-calendar .fw-top{gap:6px;}
+    #fw-calendar .fw-d{font-size:15px;}#fw-calendar .fw-item.est .fw-d{font-size:14px;}
+    #fw-calendar .fw-nm{font-size:15px;}
+    #fw-calendar .fw-ac{font-size:13px;}
+    #fw-calendar .fw-bd{font-size:11px;padding:3px 9px;}
+    #fw-calendar .fw-lk{gap:10px 16px;}
+  }
   `;
 
   function h(tag, cls, html){ var e=document.createElement(tag); if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e; }
@@ -58,8 +81,7 @@
     var root=document.getElementById('fw-calendar'); if(!root) return;
     var style=document.createElement('style'); style.textContent=CSS; document.head.appendChild(style);
     root.innerHTML='<div class="fw-mapbox"><div class="fw-mapwrap"><img class="fw-mapimg" alt="世界のファッションウィーク地図" src="'+MAP_URL+'"><svg class="fw-ov" viewBox="185 0 815 548"></svg></div></div>'
-      +'<div class="fw-legend"><span><i class="fw-dl" style="background:var(--green)"></i>アクレディ受付中</span><span><i class="fw-dl" style="background:var(--amber)"></i>アクレディ受付前（会期は確定）</span><span><i class="fw-dl" style="background:var(--closed)"></i>アクレディ受付終了</span><span><i class="fw-dl" style="background:var(--gray)"></i>次回日程 未発表（前年から推定）</span></div>'
-      +'<div class="fw-hint" style="margin:0 0 12px">▲ 地図の都市ピンをクリックすると、下の時系列リストの該当ファッションウィークまでスクロールします。</div>'
+      +'<div class="fw-hint" style="margin:10px 0 12px">▲ 地図の都市ピンをクリックすると、下の時系列リストの該当ファッションウィークまでスクロールします。</div>'
       +'<div class="fw-sec">時系列リスト（開催が近い順）</div><div id="fw-tl"></div>';
 
     fetch(DATA_URL,{cache:'no-cache'}).then(function(r){return r.json();}).then(function(data){ render(root,data); })
