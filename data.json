@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08",
+  "generated": "2026-08-15",
   "title": "世界のファッションウィークカレンダー",
   "pins": [
     {
@@ -36,7 +36,7 @@
       "k": "c4",
       "x": 821.31,
       "y": 136.37346153846153,
-      "s": "open",
+      "s": "closed",
       "lx": 815.31,
       "ly": 132.37346153846153,
       "a": "end",
@@ -190,9 +190,9 @@
       "name": "Seoul Fashion Week (2027 S/S)",
       "city": "Seoul",
       "country": "South Korea",
-      "status": "open",
+      "status": "closed",
       "dateJP": "2026.9.1〜7",
-      "acc": "Venue = DDP and others (announced by Seoul; 25th anniversary). Press registration is open on the official Register page = PRESS period 2026.7.31〜8.15 (open; application form live / https://www.seoulfashionweek.org/hmpg/fawk/regi/regiMain.do). B2B trade-show slots closed 5.1〜5.31; general public (residents/foreigners) 8.1〜8.14. Contact sfwinfo@seoul.go.kr",
+      "acc": "Venue = DDP and others (announced by Seoul; 25th anniversary). The official Register page lists PRESS period as 2026.7.31〜8.15, but the live application form (https://www.seoulfashionweek.org/hmpg/fawk/regi/regiMain.do) currently blocks submissions with an \"It is not the application period\" alert — registration is closed in practice, with no second-round call announced. B2B trade-show slots closed 5.1〜5.31; general public (residents/foreigners) 8.1〜8.14. Contact sfwinfo@seoul.go.kr",
       "link": "https://www.seoulfashionweek.org/",
       "ig": "https://www.instagram.com/seoulfashionweek_official/",
       "sort": 20260901.5
@@ -270,7 +270,7 @@
       "country": "Germany",
       "status": "amber",
       "dateJP": "2027.1.29〜2.1",
-      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header. There is no centralized press / accreditation system; the detailed AW27 show / side-event schedule (with each organizer's own contacts) is not yet published, and the accreditation page returns 404 with nav still showing the old SS27.",
+      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header. There is no centralized press / accreditation system; the accreditation page now loads (no longer 404) but only shows the closed SS27 accreditation window — the AW27 show / side-event schedule and accreditation details are not yet published.",
       "link": "https://fashionweek.berlin/en/",
       "ig": "https://www.instagram.com/berlinfashionwe/",
       "sort": 20270129
