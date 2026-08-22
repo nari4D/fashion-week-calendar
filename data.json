@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15",
+  "generated": "2026-08-22",
   "title": "世界のファッションウィークカレンダー",
   "pins": [
     {
@@ -66,7 +66,7 @@
       "k": "c7",
       "x": 408.39363636363635,
       "y": 190.84363636363622,
-      "s": "amber",
+      "s": "open",
       "lx": 416.39363636363635,
       "ly": 209.84363636363622,
       "a": "middle",
@@ -179,7 +179,7 @@
       "country": "UAE",
       "status": "open",
       "dateJP": "2026.9.1〜6",
-      "acc": "Guest accreditation open (shared for SS27/28; press@arabfashioncouncil.com). The official About page states SS27 = 2026.9.1〜6 (SS28 = 2027.9.1〜6). The detailed official show schedule still shows AW26/27; SS27/28 not yet published.",
+      "acc": "Homepage banner confirms \"Guest accreditation open for SS27/28\" (shared for SS27/28; press@arabfashioncouncil.com; separate photographer application link). The official About page states SS27 = 2026.9.1〜6 (SS28 = 2027.9.1〜6). Venue = Dubai Design District (d3). No close date posted; the online registration system showed intermittent maintenance during the 2026.8.22 check.",
       "link": "https://dubaifashionweek.org/",
       "ig": "https://www.instagram.com/dubaifashionweek/",
       "sort": 20260901
@@ -205,7 +205,7 @@
       "country": "USA",
       "status": "amber",
       "dateJP": "2026.9.10〜15",
-      "acc": "CFDA designer applications ran 4.15〜5.20 (closed). The official preliminary September schedule is posted (~70 brands, 9.10〜15, on cfda.com); a fur-free policy applies from this season. NYFW runs no centralized press accreditation — each designer handles media individually (nyfw.com/press/ states \"NYFW: The Shows will not be credentialing media\").",
+      "acc": "CFDA designer applications ran 4.15〜5.20 (closed). The official September schedule (~70 shows/presentations, 9.10〜15 on cfda.com) is confirmed, opening with Diane von Furstenberg and closing with Thom Browne; CFDA's fur-free policy applies to all brands on the official schedule this season. NYFW runs no centralized press accreditation — each designer handles media individually (nyfw.com/press states \"NYFW: The Shows will not be credentialing media\"); re-confirmed 2026.8.22.",
       "link": "https://nyfw.com/",
       "ig": "https://www.instagram.com/nyfw/",
       "sort": 20260910
@@ -218,7 +218,7 @@
       "country": "UK",
       "status": "amber",
       "dateJP": "2026.9.17〜21",
-      "acc": "The British Fashion Council (BFC) has published a provisional September schedule. The accreditation page (londonfashionweek.co.uk/accreditation) is live, but no opening/closing dates are stated — still unconfirmed.",
+      "acc": "The British Fashion Council (BFC) has published a provisional September schedule (re-confirmed 2026.8.22). The accreditation page (londonfashionweek.co.uk/accreditation) and criteria page are live (press must show published work within 12 months; buyer, photographer, stylist and showroom criteria also listed), but no opening/closing dates are stated — still unconfirmed.",
       "link": "https://londonfashionweek.co.uk/",
       "ig": "https://www.instagram.com/londonfashionweek/",
       "sort": 20260917
@@ -229,9 +229,9 @@
       "name": "Milano Fashion Week (SS27)",
       "city": "Milan",
       "country": "Italy",
-      "status": "amber",
+      "status": "open",
       "dateJP": "2026.9.22〜28",
-      "acc": "Press accreditation is by email (ufficio.stampa@cameramoda.it; formal registration after review, €60 fee). General application deadline 9.15; brands' first press-list deadline 9.8. The women's SS27 calendar is listed under \"NEXT EDITIONS\" on cameramoda.it with dates 9.22〜28 (per-show schedule separate).",
+      "acc": "Press accreditation is open now by email (ufficio.stampa@cameramoda.it; requires press card copy, editor-in-chief letter, recent published articles; formal registration after review, €60 fee). Brands' first press-list deadline 9.8; final application deadline 9.15. The women's SS27 calendar is confirmed on cameramoda.it: \"Spring/Summer 2027 is scheduled for September 22-28, 2026.\"",
       "link": "https://www.cameramoda.it/en/",
       "ig": "https://www.instagram.com/cameramoda/",
       "sort": 20260922
@@ -244,7 +244,7 @@
       "country": "France",
       "status": "open",
       "dateJP": "2026.9.28〜10.6",
-      "acc": "SS27 (Womenswear) accreditation remains open (accreditation.fhcm.paris/en; no deadline posted). Contact accreditation@fhcm.paris. Note: the accreditation office is closed 8.3〜8.16 (the system stays live).",
+      "acc": "SS27 (Womenswear) accreditation remains open — fhcm.paris states \"Accreditations for the Womenswear Paris Fashion Week® Spring/Summer 2027 are now open!\" (accreditation.fhcm.paris/en; no deadline posted). Contact accreditation@fhcm.paris. The accreditation office's 8.3〜8.16 closure has passed; the system stayed live throughout. Provisional calendar: 101 labels, 68 runway shows, 33 presentations.",
       "link": "https://www.fhcm.paris/en/",
       "ig": "https://www.instagram.com/parisfashionweek/",
       "sort": 20260928
@@ -270,7 +270,7 @@
       "country": "Germany",
       "status": "amber",
       "dateJP": "2027.1.29〜2.1",
-      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header. There is no centralized press / accreditation system; the accreditation page now loads (no longer 404) but only shows the closed SS27 accreditation window — the AW27 show / side-event schedule and accreditation details are not yet published.",
+      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header. The accreditation page (fashionweek.berlin/en/calendar/bfw-accreditation.html) explicitly states \"Accreditation for Berlin Fashion Week is now closed. Please contact the organisers and designers directly\" — this refers to the past SS27 window; the AW27 show / side-event schedule and accreditation details are not yet published. No centralized registration window announced.",
       "link": "https://fashionweek.berlin/en/",
       "ig": "https://www.instagram.com/berlinfashionwe/",
       "sort": 20270129
@@ -282,9 +282,9 @@
       "city": "Beijing",
       "country": "China",
       "status": "tbd",
-      "est": "Est. 2026.9 (early–mid)",
+      "est": "Est. 2026.9.3〜10 (per Xinhua News report on model casting; not yet posted on the official site)",
       "ref": "Ref: Autumn 2025 ran 2025.9.5〜14 (798-751 Art District, etc.)",
-      "reason": "2026 autumn dates not officially announced (2026 spring was held 3.20).",
+      "reason": "chinafashionweek.org.cn still shows no dates for the 2026 autumn edition; a Xinhua News article (2026.8.5) on model casting cites 2026.9.3〜10 in Beijing, but this is a secondary source, not an official-site confirmation.",
       "link": "https://www.chinafashionweek.org.cn/",
       "ig": null,
       "sort": 20260908
@@ -312,7 +312,7 @@
       "status": "tbd",
       "est": "Est. 2026 autumn (TBC)",
       "ref": "Officially held twice a year (spring / autumn)",
-      "reason": "Next dates unconfirmed — official site could not be fetched (twice a year, spring / autumn).",
+      "reason": "Next dates unconfirmed — the official site (szfashionweek.com) is unreachable (confirmed via both DNS failure and connection reset on repeat checks); may be defunct (twice a year, spring / autumn).",
       "link": "http://www.szfashionweek.com/",
       "ig": null,
       "sort": 20261101
@@ -340,7 +340,7 @@
       "status": "tbd",
       "est": "Est. 2026.10 (mid)",
       "ref": "Ref: the 3rd edition (2025) ran 10.16〜21 (announced on official Instagram)",
-      "reason": "The 2026 edition (4th; White Milano reported as official partner by WWD and others) is expected, but exact start / end dates are not officially announced (official site still shows 2025).",
+      "reason": "The 2026 edition (4th; White Milano reported as official partner by WWD and others) is expected, but exact start / end dates are not officially announced (official site still shows 2025 content; some search results resurfacing \"October 16-21\" are about the 2025 3rd edition, not a new 2026 announcement).",
       "link": "https://www.riyadhfashionweek.com/",
       "ig": "https://www.instagram.com/riyadhfashionweek/",
       "sort": 20261016
@@ -354,7 +354,7 @@
       "status": "tbd",
       "est": "Est. 2026.10 (mid–late)",
       "ref": "Ref: SHIBUYA RUNWAY autumn 2025 was 10.19",
-      "reason": "Held twice a year (spring / autumn); autumn 2026 not officially announced (spring 2026, 3.13〜22, ended).",
+      "reason": "Held twice a year (spring / autumn); autumn 2026 not officially announced (spring 2026, 3.13〜22, ended). Re-checked 2026.8.22: homepage still only promotes the spring 2026 edition and /register returns 404.",
       "link": "https://www.shibuya-fw.com/",
       "ig": "https://www.instagram.com/shibuyafashionweek/",
       "sort": 20261020
