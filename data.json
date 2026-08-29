@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-22",
+  "generated": "2026-08-29",
   "title": "世界のファッションウィークカレンダー",
   "pins": [
     {
       "k": "c0",
       "x": 441.2718181818182,
       "y": 91.43090909090893,
-      "s": "tbd",
+      "s": "amber",
       "lx": 447.2718181818182,
       "ly": 88.43090909090893,
       "a": "start",
@@ -146,17 +146,16 @@
   "events": [
     {
       "key": "c0",
-      "kind": "estimate",
-      "name": "Copenhagen Fashion Week (SS28, est.)",
+      "kind": "confirmed",
+      "name": "Copenhagen Fashion Week (AW27)",
       "city": "Copenhagen",
       "country": "Denmark",
-      "status": "tbd",
+      "status": "amber",
+      "dateJP": "2027.2.1〜5",
+      "acc": "AW27 dates are confirmed on the official schedule page (copenhagenfashionweek.com/schedule: \"AW27 / 1 – 5 February 2027\"). SS27 (2026.8.3〜7) has already concluded; the site separately notes the next SS schedule \"has not yet been released.\" No AW27 accreditation window has been announced yet — the application portal (copenhagenfashionweek.com/application/accreditation-form) lists no specific dates. Contact: info@copenhagenfashionweek.com",
       "link": "https://copenhagenfashionweek.com/application/accreditation-form",
       "ig": "https://www.instagram.com/cphfw/",
-      "sort": 20270803,
-      "est": "Est. 2027.8 (early)",
-      "ref": "Ref: SS27 was 2026.8.3〜7 (ended)",
-      "reason": "SS27 has ended; next SS28 dates not officially announced (estimated from last year)."
+      "sort": 20270201
     },
     {
       "key": "c2",
@@ -179,7 +178,7 @@
       "country": "UAE",
       "status": "open",
       "dateJP": "2026.9.1〜6",
-      "acc": "Homepage banner confirms \"Guest accreditation open for SS27/28\" (shared for SS27/28; press@arabfashioncouncil.com; separate photographer application link). The official About page states SS27 = 2026.9.1〜6 (SS28 = 2027.9.1〜6). Venue = Dubai Design District (d3). No close date posted; the online registration system showed intermittent maintenance during the 2026.8.22 check.",
+      "acc": "Homepage banner confirms \"Guest accreditation open for SS27/28\" (shared for SS27/28; press@arabfashioncouncil.com; separate photographer application link). The official About page states SS27 = 2026.9.1〜6 (SS28 = 2027.9.1〜6); note the homepage countdown banner separately shows \"22-26 October\" for the same SS27/28 label, an unresolved inconsistency treated as a stale banner rather than a date change. Venue = Dubai Design District (d3). No close date posted; the official-calendar registration system again showed a maintenance notice during the 2026.8.29 recheck.",
       "link": "https://dubaifashionweek.org/",
       "ig": "https://www.instagram.com/dubaifashionweek/",
       "sort": 20260901
@@ -191,8 +190,8 @@
       "city": "Seoul",
       "country": "South Korea",
       "status": "closed",
-      "dateJP": "2026.9.1〜7",
-      "acc": "Venue = DDP and others (announced by Seoul; 25th anniversary). The official Register page lists PRESS period as 2026.7.31〜8.15, but the live application form (https://www.seoulfashionweek.org/hmpg/fawk/regi/regiMain.do) currently blocks submissions with an \"It is not the application period\" alert — registration is closed in practice, with no second-round call announced. B2B trade-show slots closed 5.1〜5.31; general public (residents/foreigners) 8.1〜8.14. Contact sfwinfo@seoul.go.kr",
+      "dateJP": "2026.9.1〜6",
+      "acc": "Venue = DDP and, newly for the 25th anniversary edition, Lotte World Tower (Jamsil); trade show runs 9.2〜4 with global buyers (Printemps, La Samaritaine, United Arrows). The official Register page lists PRESS period as 2026.7.31〜8.15, and the live application form (seoulfashionweek.co.kr/enpg/fawk/regi/regiMain.do) still returns an \"It is not the application period\" alert as of 2026.8.29 — registration is closed in practice, with no second-round call announced. Contact sfwinfo@seoul.go.kr",
       "link": "https://www.seoulfashionweek.org/",
       "ig": "https://www.instagram.com/seoulfashionweek_official/",
       "sort": 20260901.5
@@ -257,7 +256,7 @@
       "country": "Taiwan",
       "status": "amber",
       "dateJP": "2026.10.15〜18",
-      "acc": "Venue = C-LAB. Trade-show / runway / presentation selection results announced 8.5; buyer applications open (deadline 9.7 17:00 UTC+8). Press / photo accreditation: tpefw.com/en/schedules still shows AW26 (past season); SS27 not yet published.",
+      "acc": "Venue = Kong Zong Cultural Base (Heritage Building): Heritage Square for runway shows, 2F for presentations, 1F for the trade show (updated from the previous C-LAB listing). Buyer applications deadline 9.7 17:00 UTC+8. Press / photographer accreditation not yet published — tpefw.com/en still shows \"SCHEDULE — COMING SOON\" for SS27, with no accreditation portal or contact listed as of 2026.8.29.",
       "link": "https://tpefw.com/en",
       "ig": "https://www.instagram.com/tpe.fashionweek/",
       "sort": 20261015
@@ -270,7 +269,7 @@
       "country": "Germany",
       "status": "amber",
       "dateJP": "2027.1.29〜2.1",
-      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header. The accreditation page (fashionweek.berlin/en/calendar/bfw-accreditation.html) explicitly states \"Accreditation for Berlin Fashion Week is now closed. Please contact the organisers and designers directly\" — this refers to the past SS27 window; the AW27 show / side-event schedule and accreditation details are not yet published. No centralized registration window announced.",
+      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header. The accreditation page (fashionweek.berlin/en/calendar/bfw-accreditation.html) is still titled \"Accreditation SS27\" and states \"Accreditation for Berlin Fashion Week is now closed. Please contact the organisers and designers directly\" — this refers to the past SS27 window (re-confirmed 2026.8.29); the AW27 show / side-event schedule and accreditation details are not yet published. No centralized registration window announced.",
       "link": "https://fashionweek.berlin/en/",
       "ig": "https://www.instagram.com/berlinfashionwe/",
       "sort": 20270129
