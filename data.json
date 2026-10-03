@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26",
+  "generated": "2026-10-03",
   "title": "世界のファッションウィークカレンダー",
   "pins": [
     {
@@ -66,7 +66,7 @@
       "k": "c7",
       "x": 408.39363636363635,
       "y": 190.84363636363622,
-      "s": "closed",
+      "s": "amber",
       "lx": 416.39363636363635,
       "ly": 209.84363636363622,
       "a": "middle",
@@ -152,7 +152,7 @@
       "country": "Denmark",
       "status": "amber",
       "dateJP": "2027.2.1〜5",
-      "acc": "AW27 dates are confirmed on the official schedule page (copenhagenfashionweek.com/schedule: \"AW27 / 1 – 5 February 2027\"); re-confirmed 2026.9.26. The SS27 edition (2026.8.3〜7) has already taken place. No AW27 accreditation window has been announced yet — the application index page (copenhagenfashionweek.com/application) still lists only \"Show & Presentation Application\" and \"Event & Talk Application\", no accreditation link, and a previously search-indexed accreditation-form URL returns a 404 live. Contact: info@copenhagenfashionweek.com",
+      "acc": "AW27 dates are confirmed on the official schedule page (copenhagenfashionweek.com/schedule: \"AW27 / 1 – 5 February 2027\"); re-confirmed 2026.10.3. The SS27 edition (2026.8.3〜7) has already taken place. No AW27 accreditation window has been announced yet — the application index page (copenhagenfashionweek.com/application) still lists only \"Show & Presentation Application\" and \"Event & Talk Application\", no accreditation link, and a previously search-indexed accreditation-form URL returns a 404 live. Contact: info@copenhagenfashionweek.com",
       "link": "https://copenhagenfashionweek.com/application",
       "ig": "https://www.instagram.com/cphfw/",
       "sort": 20270201
@@ -165,7 +165,7 @@
       "country": "Japan",
       "status": "amber",
       "dateJP": "2027.3.15〜20",
-      "acc": "The 2027 S/S edition (2026.8.31〜9.5, Shibuya Hikarie) has concluded — the homepage now shows \"2027SS CLOSED SEE YOU NEXT SEASON\". The next edition, Rakuten Fashion Week TOKYO 2027 A/W, is confirmed for 2027.3.15〜20 per the official site (\"2027AW MON. 03/15– SAT. 03/20/2027\"). Registration for 2027 A/W is not yet open — the registration page still only references the 2027 S/S press/photographer/buyer registration, which closed 2026.7.29 18:00 JST, with no 2027 A/W window announced; re-confirmed 2026.9.26. Contact: press/photographer jfwpress@jfw.jp, buyer buyer@jfw.jp",
+      "acc": "The 2027 S/S edition (2026.8.31〜9.5, Shibuya Hikarie) has concluded — the homepage now shows \"2027SS CLOSED SEE YOU NEXT SEASON\". The next edition, Rakuten Fashion Week TOKYO 2027 A/W, is confirmed for 2027.3.15〜20 per the official site (\"2027AW MON. 03/15– SAT. 03/20/2027\"). Registration for 2027 A/W is not yet open — the registration page still only references the 2027 S/S press/photographer/buyer registration, which closed 2026.7.29 18:00 JST, with no 2027 A/W window announced; re-confirmed 2026.10.3. Contact: press/photographer jfwpress@jfw.jp, buyer buyer@jfw.jp",
       "link": "https://rakutenfashionweektokyo.com/jp/",
       "ig": "https://www.instagram.com/rakutenfwt/",
       "sort": 20270315
@@ -178,7 +178,7 @@
       "country": "UAE",
       "status": "amber",
       "dateJP": "2026.10.22〜26",
-      "acc": "Dubai Fashion Week SS27 is confirmed for 2026.10.22〜26 at Dubai Design District (d3), per the official about page (\"SS27 — 22 – 26 October 2026\"). Re-checked 2026.9.26: the /press-accreditation/ and /photographers-application/ pages show only generic descriptions with a REGISTER button linking to the calendar/registration system, which is currently displaying stale AW26/27 (February 2026, already past) content and an active notice: \"We are currently performing maintenance on the registration system. Please check back in a few hours.\" The linked third-party registration portal (dfw.ohvu.ai) still shows SS24 (2023) data. Designer applications are reported open per recent press coverage, but SS27 press/photographer/buyer accreditation does not appear to be live yet on the official infrastructure. Contact press@arabfashioncouncil.com / buyers@arabfashioncouncil.com.",
+      "acc": "Dubai Fashion Week SS27 is confirmed for 2026.10.22〜26 at Dubai Design District (d3), per the official about page (\"SS27 — 22 – 26 October 2026\"). Re-checked 2026.10.3, 19 days before the event: a new \"PRESS/ BUYERS REGISTRATION\" nav item now links to dubaifashionweek.org/registration/, which splits into BUYERS and PRESS (the PRESS link routes to /press-accreditation/, still generic benefits copy with no dates). The REGISTER button on that page now points to dubaifashionweek.org/calendar/ (the dfw.ohvu.ai portal is no longer linked there, though it still independently exists showing stale SS24/Oct-2023 data). The /calendar/ system remains under the same maintenance notice as before (\"We are currently performing maintenance on the registration system. Please check back in a few hours.\") and is now displaying stale AW26/27 (Feb 2026) content. Separately, designer applications are open, but explicitly for the next season: \"Designer's application open for March 2027, A/W 27-28\" — unrelated to SS27 press accreditation. No live, confirmed SS27 press/photographer accreditation exists on official infrastructure as of this check. Contact press@arabfashioncouncil.com / buyers@arabfashioncouncil.com.",
       "link": "https://dubaifashionweek.org/",
       "ig": "https://www.instagram.com/dubaifashionweek/",
       "sort": 20261022
@@ -192,7 +192,7 @@
       "status": "tbd",
       "est": "Est. 2027.2 (early)",
       "ref": "Ref: the 2027 S/S edition (this entry) ran 2026.9.1〜6 at DDP and other venues; the prior F/W edition (2026 F/W) ran 2026.2.3〜8, concentrated at DDP",
-      "reason": "The 2027 S/S edition has concluded (ended 2026.9.6) with no second-round press/photographer accreditation call announced. The next edition, 2027 F/W, has not yet been officially announced as of 2026.9.26; the official PRESS registration page (seoulfashionweek.co.kr/enpg/fawk/regi/regiMain.do) still only shows the closed 2027 S/S PRESS period (2026.7.31〜8.15), flagged \"It is not the application period\", with no 2027 F/W section published. The estimate is based on the 2026 F/W timing (early February). Contact sfwinfo@seoul.go.kr",
+      "reason": "The 2027 S/S edition has concluded (ended 2026.9.6) with no second-round press/photographer accreditation call announced. The next edition, 2027 F/W, has not yet been officially announced as of 2026.10.3; the official PRESS registration page (seoulfashionweek.co.kr/enpg/fawk/regi/regiMain.do) still only shows the closed 2027 S/S PRESS period (2026.7.31〜8.15), flagged \"It is not the application period\", with no 2027 F/W section published. The estimate is based on the 2026 F/W timing (early February, which actually ran 2026.2.3〜8). Contact sfwinfo@seoul.go.kr",
       "link": "https://www.seoulfashionweek.org/",
       "ig": "https://www.instagram.com/seoulfashionweek_official/",
       "sort": 20270203
@@ -206,7 +206,7 @@
       "status": "tbd",
       "est": "Est. 2027.2 (early–mid, dates not yet officially announced)",
       "ref": "Ref: the Spring 2027 edition (this entry) ran 2026.9.10〜15",
-      "reason": "The Spring 2027 edition has concluded (ended 2026.9.15). CFDA has not yet announced dates for the next edition; cfda.com/home/nyfw and cfda.com/news show no February 2027 listing as of 2026.9.26 (CFDA typically only publishes a preliminary schedule 4–6 weeks ahead of the season). Per CFDA's naming convention, the February season is termed \"Fall/Winter\" (\"Fall 2027\"). NYFW runs no centralized press accreditation — CFDA directs press inquiries to fc@cfda.com, with credentials handled individually by each designer/show.",
+      "reason": "The Spring 2027 edition has concluded (ended 2026.9.15). CFDA has not yet announced dates for the next edition; cfda.com/home/nyfw and cfda.com/news show no February 2027 listing as of 2026.10.3 (CFDA typically only publishes a preliminary schedule 4–6 weeks ahead of the season, so no announcement is expected before roughly late December 2026 / January 2027). Per CFDA's naming convention, the February season is termed \"Fall/Winter\" (\"Fall 2027\"). NYFW runs no centralized press accreditation — CFDA directs press inquiries to fc@cfda.com, with credentials handled individually by each designer/show.",
       "link": "https://nyfw.com/",
       "ig": "https://www.instagram.com/nyfw/",
       "sort": 20270210
@@ -220,7 +220,7 @@
       "status": "tbd",
       "est": "Est. 2027.2 (mid, dates not yet officially announced)",
       "ref": "Ref: the SS27 edition (this entry) ran 2026.9.17〜21; the prior February edition (\"AW26\") ran 2026.2.19〜23 per the British Fashion Council's official schedule announcement",
-      "reason": "The SS27 edition has concluded (ended 2026.9.21). As of the 2026.9.26 re-check, both londonfashionweek.co.uk and britishfashioncouncil.co.uk/London-Fashion-Week still display only the closed SS27 (September 2026) dates, with no announcement of dates, schedule, or season name for the next (February 2027) edition. The official Press & Buyers Accreditation page (londonfashionweek.co.uk/accreditation) does not display season-specific deadlines or an open/closed status for a new cycle. The estimate is based on the February 2026 timing (19–23 Feb).",
+      "reason": "The SS27 edition has concluded (ended 2026.9.21). As of the 2026.10.3 re-check, both londonfashionweek.co.uk and britishfashioncouncil.co.uk/London-Fashion-Week still display only the closed SS27 (September 2026) dates, with no announcement of dates, schedule, or season name for the next (February 2027) edition. The official Press & Buyers Accreditation page (londonfashionweek.co.uk/accreditation) does not display season-specific deadlines or an open/closed status for a new cycle. The estimate is based on the February 2026 timing (19–23 Feb).",
       "link": "https://londonfashionweek.co.uk/",
       "ig": "https://www.instagram.com/londonfashionweek/",
       "sort": 20270218
@@ -228,15 +228,15 @@
     {
       "key": "c7",
       "kind": "confirmed",
-      "name": "Milano Fashion Week (SS27)",
+      "name": "Milano Fashion Week (Women's, Autumn/Winter 2027/28)",
       "city": "Milan",
       "country": "Italy",
-      "status": "closed",
-      "dateJP": "2026.9.22〜28",
-      "acc": "Press accreditation closed — cameramoda.it's press accreditation page (cameramoda.it/en/area-stampa/stampa-accrediti/) states the deadline for submitting required documentation was Tuesday 2026.9.15 (\"il termine ultimo\", i.e. the final deadline); re-checked 2026.9.26, with the event now underway (2026.9.22〜28) and still no second-round call or late-accreditation option announced. The women's SS27 calendar remains confirmed on cameramoda.it: \"Spring/Summer 2027 | 22nd - 28th September 2026.\"",
+      "status": "amber",
+      "dateJP": "2027.2.23〜3.1",
+      "acc": "The SS27 Women's edition (2026.9.22〜28) has concluded; press accreditation for it closed 2026.9.15 with no second-round call. Camera Nazionale della Moda Italiana's official calendar now lists the next Women's edition as \"Autumn/Winter 2027/28\", confirmed for 2027.2.23〜3.1 (cameramoda.it/en/milano-moda-donna/: \"23rd – 1st March 2027\"); the companion Men's \"Autumn/Winter 2027/28\" edition runs 2027.1.15〜19 (cameramoda.it/en/milano-moda-uomo/calendar/). Confirmed 2026.10.3. No accreditation window has opened yet for the new season — the press accreditation page (cameramoda.it/en/area-stampa/stampa-accrediti/) still only references the now-closed SS27 deadlines.",
       "link": "https://www.cameramoda.it/en/",
       "ig": "https://www.instagram.com/cameramoda/",
-      "sort": 20260922
+      "sort": 20270223
     },
     {
       "key": "c8",
@@ -246,7 +246,7 @@
       "country": "France",
       "status": "open",
       "dateJP": "2026.9.28〜10.6",
-      "acc": "SS27 (Womenswear) accreditation remains open — the accreditation portal (accreditation.fhcm.paris/en) is live and accepting media/buyer/freelancer account creation for Paris Fashion Week® / Haute Couture Week, with no deadline posted (re-confirmed 2026.9.26, event starts in 2 days). Contact accreditation@fhcm.paris. Provisional calendar: 101 labels, 68 runway shows, 33 presentations; Julie Kegels opens 9.28, Louis Vuitton closes 10.6.",
+      "acc": "SS27 (Womenswear) accreditation remains open — the accreditation portal (accreditation.fhcm.paris/en) is live and accepting media/buyer/freelancer account creation for Paris Fashion Week® / Haute Couture Week, with no deadline posted (re-confirmed 2026.10.3, event currently underway — official site shows \"28 September - 06 October 2026 LIVE\"). Contact accreditation@fhcm.paris. Provisional calendar: 101 labels, 68 runway shows, 33 presentations; Julie Kegels opened 9.28, Louis Vuitton closes 10.6.",
       "link": "https://www.fhcm.paris/en/",
       "ig": "https://www.instagram.com/parisfashionweek/",
       "sort": 20260928
@@ -259,7 +259,7 @@
       "country": "Taiwan",
       "status": "amber",
       "dateJP": "2026.10.15〜18",
-      "acc": "Venue = Kong Zong Cultural Base (C-LAB): Heritage Square for runway shows, 2F for presentations, 1F for the trade show. Buyer applications deadline 9.7 has passed. The schedule page is live with dated programming (tpefw.com/en/schedules, Runway/Trade Show/Fashion Salon sessions 10.16〜17), but press/photographer accreditation is still not published — top navigation lists only Brand Show, Trade Show, Event and Buyer, with no Press/Media category; /en/press returns 404 (re-confirmed 2026.9.26). tpefw-reg.tw still renders as an empty JS shell with no visible form or dates, so a dedicated portal could not be confirmed either way.",
+      "acc": "Venue = Kong Zong Cultural Base (C-LAB): Heritage Square for runway shows, 2F for presentations, 1F for the trade show. Buyer applications deadline 9.7 has passed. The schedule page is live with dated programming (tpefw.com/en/schedules, Runway/Trade Show/Fashion Salon sessions 10.16〜17), but press/photographer accreditation is still not published — top navigation lists only Brand Show, Trade Show, Event and Buyer, with no Press/Media category; /en/press returns 404 (re-confirmed 2026.10.3, event now only 12 days away). tpefw-reg.tw still renders as an empty JS shell with no visible form or dates, so a dedicated portal could not be confirmed either way.",
       "link": "https://tpefw.com/en",
       "ig": "https://www.instagram.com/tpe.fashionweek/",
       "sort": 20261015
@@ -272,7 +272,7 @@
       "country": "Germany",
       "status": "amber",
       "dateJP": "2027.1.29〜2.1",
-      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header and official-schedule page banner (re-confirmed 2026.9.26). The accreditation page (fashionweek.berlin/en/calendar/bfw-accreditation.html) is still titled \"Accreditation SS27\" and states \"Accreditation for Berlin Fashion Week is now closed. Please contact the organisers and designers directly\" — this refers to the past SS27 window; no AW27-specific accreditation window has been announced, and the site states there is no general/central accreditation process, with press directed to contact individual designers/organisers. (A separate designer-facing \"Concept Competition AW2027\" open call, deadline 2026.10.5, is unrelated to press accreditation.)",
+      "acc": "AW27 dates (2027.1.29〜2.1) confirmed via the site header and official-schedule page banner (re-confirmed 2026.10.3). The accreditation page (fashionweek.berlin/en/calendar/bfw-accreditation.html) is still titled \"Accreditation SS27\" and states \"Accreditation for Berlin Fashion Week is now closed. Please contact the organisers and designers directly\" — this refers to the past SS27 window; no AW27-specific accreditation window has been announced, and the site states there is no general/central accreditation process, with press directed to contact individual designers/organisers. (A separate designer-facing \"Concept Competition AW2027\" open call, deadline 2026.10.5, is unrelated to press accreditation.)",
       "link": "https://fashionweek.berlin/en/",
       "ig": "https://www.instagram.com/berlinfashionwe/",
       "sort": 20270129
@@ -286,7 +286,7 @@
       "status": "tbd",
       "est": "Est. 2027.3 (mid–late)",
       "ref": "Ref: the prior Spring 2026 edition ran 2026.3.20〜28; the Autumn 2026 edition (this entry) ran 2026.9.3〜10",
-      "reason": "The Autumn 2026 edition has concluded (ended 2026.9.10). Both the Chinese-language (chinafashionweek.org.cn) and English (english.chinafashionweek.org.cn) official sites still list \"2026 AUTUMN\" as their latest season and have not yet announced dates for the next (Spring 2027) edition as of 2026.9.26; the estimate is based on the Spring 2026 timing (mid-to-late March). No online press/accreditation page is published — the Press Center lists only a phone/fax contact (010-84562288 / fax 010-64387099).",
+      "reason": "The Autumn 2026 edition has concluded (ended 2026.9.10). Both the Chinese-language (chinafashionweek.org.cn) and English (english.chinafashionweek.org.cn) official sites remained unreachable on re-check 2026.10.3, and no Spring 2027 dates could be found via search either; the estimate is based on the Spring 2026 timing (mid-to-late March). No online press/accreditation page is published — the Press Center lists only a phone/fax contact (010-84562288 / fax 010-64387099).",
       "link": "https://www.chinafashionweek.org.cn/",
       "ig": null,
       "sort": 20270320
@@ -299,7 +299,7 @@
       "country": "China",
       "status": "amber",
       "dateJP": "2026.10.8〜25",
-      "acc": "SS2027 dates are now posted on the official schedule page (shanghaifashionweek.com/page/shfw/schedule?language=en: \"SS2027-SCHEDULE-SHFW\", 2026.10.8〜25, across trade fairs, brand presentations and theme activities at multiple Shanghai venues); confirmed 2026.9.26 via two direct checks. No press/photographer accreditation section or registration link is published on this schedule page, so accreditation status remains unconfirmed.",
+      "acc": "SS2027 dates are now posted on the official schedule page (shanghaifashionweek.com/page/shfw/schedule?language=en: \"SS2027-SCHEDULE-SHFW\", 2026.10.8〜25, across trade fairs, brand presentations and theme activities at multiple Shanghai venues); re-confirmed 2026.10.3, event now only 5 days away. A \"Media\" nav link exists but leads only to a press-coverage archive, not an accreditation process; the registration portal (account.shanghaifashionweek.com) only covers brand/exhibitor sign-up. No press/photographer accreditation form, dates, or procedure found anywhere on the site.",
       "link": "https://www.shanghaifashionweek.com/",
       "ig": "https://www.instagram.com/shanghai_fashionweek/",
       "sort": 20261008
@@ -313,7 +313,7 @@
       "status": "tbd",
       "est": "Est. 2026 autumn (TBC)",
       "ref": "Officially held twice a year (spring / autumn)",
-      "reason": "Next dates unconfirmed — the official site (szfashionweek.com) remains unreachable (DNS/connection failure, re-confirmed 2026.9.26). The organiser (Shenzhen Garment Industry Association) may still be active — its S/S 2025 edition was covered by Shenzhen government-affiliated media in 2024 — but no 2026 edition news could be found and formal discontinuation is unconfirmed either way; web searches for a 2026 edition return only results for the distinct \"Shenzhen Original Design Fashion Week / Fashion Source Shenzhen\" event, which has its own separate lineage (tracked separately, see the Fashion Source Shenzhen entry).",
+      "reason": "Next dates unconfirmed — the official site (szfashionweek.com) remains unreachable (DNS failure, re-confirmed 2026.10.3, identical error to the prior check). The organiser (Shenzhen Garment Industry Association) may still be active — its S/S 2025 edition was covered by Shenzhen government-affiliated media in 2024 — but no 2026 edition news could be found and formal discontinuation is unconfirmed either way; web searches for a 2026 edition return only results for the distinct \"Shenzhen Original Design Fashion Week / Fashion Source Shenzhen\" event, which has its own separate lineage (tracked separately, see the Fashion Source Shenzhen entry). A possible successor domain (szodfw.com) surfaced in search results but could not be independently verified live, so it is not treated as confirmed.",
       "link": "http://www.szfashionweek.com/",
       "ig": null,
       "sort": 20261101
@@ -326,7 +326,7 @@
       "country": "China",
       "status": "amber",
       "dateJP": "2026.10.21〜23",
-      "acc": "The 33rd Fashion Source Shenzhen, concurrent with SS27 Shenzhen Original Design Fashion Week, is confirmed for 2026.10.21〜23 at Shenzhen Convention & Exhibition Center (Futian); re-confirmed on the official site 2026.9.26. Visitor registration and booth booking are open. The site's dedicated Press Room page (fashionsource.cn/en/media-center) shows only media-partner listings and a generic contact (info@fashionsource.cn, tel. 0755-8254-2710) — no press/photographer accreditation form, procedure, or deadline has been published, even with the event about a month away.",
+      "acc": "The 33rd Fashion Source Shenzhen, concurrent with SS27 Shenzhen Original Design Fashion Week, is confirmed for 2026.10.21〜23 at Shenzhen Convention & Exhibition Center (Futian); re-confirmed on the official site 2026.10.3, 18 days before the event. Visitor registration and booth booking are open. The site's dedicated Press Room page (fashionsource.cn/en/media-center) shows only media-partner listings and a generic contact (info@fashionsource.cn, tel. 0755-8254-2710) — no press/photographer accreditation form, procedure, or deadline has been published.",
       "link": "https://www.fashionsource.cn/",
       "ig": null,
       "sort": 20261021
@@ -340,7 +340,7 @@
       "status": "tbd",
       "est": "Reported (not yet confirmed on official channels): 2026.10.15〜20, per press coverage citing the Saudi Fashion Commission",
       "ref": "Ref: the 3rd edition (2025) ran 10.16〜21 (announced on official Instagram)",
-      "reason": "The official site (both www and non-www) and Instagram remain unreachable as of 2026.9.26 (connection refused / rate-limited). Press coverage (Time Out Riyadh, LIST Magazine, Platinumlist, WWD, FashionNetwork, CairoScene) consistently attributes the 4th edition to the Saudi Fashion Commission, with most outlets citing 2026.10.15〜20 (one FashionNetwork headline instead said 10.16〜21 — a minor discrepancy across press). Designer/brand applications reportedly closed 2026.9.1. No source, official or press, mentions a press/photographer accreditation procedure or window. Dates are treated as press-reported, not officially confirmed.",
+      "reason": "The official site remains unreachable as of 2026.10.3 (connection refused, same IP/error as the prior check). Instagram now loads but is login-gated with no content retrievable without authentication. Checks of the Saudi Fashion Commission's own site and the Saudi Press Agency did not turn up a directly quotable official confirmation of 2026 dates. Press coverage (Time Out Riyadh, LIST Magazine, Platinumlist, WWD, FashionNetwork, CairoScene) consistently attributes the 4th edition to the Saudi Fashion Commission, with most outlets citing 2026.10.15〜20 (one FashionNetwork headline instead said 10.16〜21 — a minor discrepancy across press); one search snippet explicitly states the official calendar/line-up is \"yet to be announced.\" Designer/brand applications reportedly closed 2026.9.1. No source, official or press, mentions a press/photographer accreditation procedure or window. Dates are treated as press-reported, not officially confirmed.",
       "link": "https://www.riyadhfashionweek.com/",
       "ig": "https://www.instagram.com/riyadhfashionweek/",
       "sort": 20261016
@@ -353,7 +353,7 @@
       "country": "Japan",
       "status": "amber",
       "dateJP": "2026.10.18",
-      "acc": "The official site confirms the 26th edition, \"SFW 2026 Autumn,\" held Sunday 2026.10.18 (venue: \"Somewhere in Shibuya\", details TBA); re-confirmed 2026.9.26. Held twice a year (spring / autumn); the Spring 2026 edition (\"CULTIVATE\") ran 2026.3.13〜22. No press/media accreditation portal is live yet — /register still returns a 404; /contact/ has only a generic inquiry form. Shibuya Fashion Week runs in association with Rakuten Fashion Week TOKYO under the Japan Fashion Week Organization (JFWO), whose press-registration system (jfwpress@jfw.jp) governs affiliated seasons, but rakutenfashionweektokyo.com's registration page currently lists only 2027 S/S (closed) and 2027 A/W (March 2027) — no October 2026 Shibuya-specific press registration window has appeared.",
+      "acc": "The official site confirms the 26th edition, \"SFW 2026 Autumn,\" held Sunday 2026.10.18 (venue: \"Somewhere in Shibuya\", details TBA); re-confirmed 2026.10.3, 15 days before the event. Held twice a year (spring / autumn); the Spring 2026 edition (\"CULTIVATE\") ran 2026.3.13〜22. No press/media accreditation portal is live yet — /register, /press/, and /accreditation/ all still return 404; /contact/ has only a generic inquiry form. Shibuya Fashion Week is run independently by the Shibuya Fashion Week Executive Committee (backed by Shibuya Ward) and is distinct from Rakuten Fashion Week TOKYO (run by JFWO, jfwpress@jfw.jp); the JFWO press-registration system does not cover this event, which has no published accreditation process of its own.",
       "link": "https://www.shibuya-fw.com/",
       "ig": "https://www.instagram.com/shibuyafashionweek/",
       "sort": 20261018
